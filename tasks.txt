@@ -794,3 +794,12 @@ if __name__ == "__main__":
     get_all_contacts()
 
 
+#############################################################################
+write a program to read empinfo.csv file and insert age,workclass,education columns data
+to the sqlite3 database
+#########################################################################
+
+write a program to display all the records inserted in the above program
+
+
+
