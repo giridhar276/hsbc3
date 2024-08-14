@@ -1,0 +1,130 @@
+Python objects
+-------------
+
+
+Number
+-------
+Number can be integer or decimal or hexa or octal.
+
+
+String
+------
+String is defined in single or double or triple quotes.
+
+Aname = 'python programming'
+Bname = "java programming"
+Cname = """unix shell scripting"""
+
+
+
+List
+-----
+List is defined in [].
+List contains set of elements.
+Elements can be numbers or strings or Any combination.
+
+Alist = [10,20,30,40]
+Blist = ["java","unix","genai"]
+cList = [[10,20,30],[40,50,8]]
+
+
+
+Tuple. ( immutable or uneditable or unchangeable )
+------
+Tuple is defined in ().
+Tuple contains set of elements.
+Elements can be numbers or strings or Any combination.
+
+
+
+
+Dictionary ( hashmap    map  json  associative array .. )
+--------------------------------
+Dictionary contains keys and values.
+Key would be either number or string used to identify the value
+Value can be number or string or list or tuple or dictionary .
+
+
+Syntax:    object = { key:value , key:value , key:value }
+example:     book = {"chap1":10 ,"chap2":20 ,"chap3": 30}
+             Data = {1:2,3:4,5:6}
+            Bookinfo ={"chap1":["rita","UK"] ,"chap2":["ram","UK"]}
+
+
+
+      Index
+      -------
+   	Chap1	10
+	chap2   20
+	chap3	30
+	chap4   40
+
+
+Set 
+-----
+Set is unordered collection of UNIQUE elements of same type.
+
+
+
+Operators
+----------
+
+arithmetic operators : + - *  / %
+
+logical operators :   and  or  not
+
+relational operators :   <  >  <=  >=  == !=
+
+assignment operators :( ++ and -- are NOT allowed in python)
+
+val = 10
+val = val + 1    or  val+=1
+
+special operators :
+------------------
+in
+as
++
+*
+
+file handling
+--------------
+
+txt  
+csv
+
+
+
+
+flat files  ( csv  log conf  json xml prop  .properties )
+--------
+
+
+third party files  ( pdf pptx  docx tar.gz ...)
+
+modes :
+r : read mode
+w : write mode
+a : append mode
+
+opening the file
+-------------
+fobj = open(filename,mode)
+
+
+closing the file
+-------------
+fobj.close()
+
+
+different ways of reading the file
+--------------------------------
+1. reading the file line by line
+2. fobj.readlines()---> read all the files in the list
+3. fobj.read() -------> will return the single string of the file
+4. using csv library for csv files, json library for json files
+5. using pandas library
+
+
+
+
