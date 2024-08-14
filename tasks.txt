@@ -581,3 +581,9 @@ Regular (1001)
 Regular (1001)
 Chocolate (1002)
 
+
+
+file handling
+---------------
+
+write a program to read empinfo.csv and display all the distinct workclasses from the file line by line
