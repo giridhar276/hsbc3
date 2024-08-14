@@ -593,3 +593,47 @@ write a program to read empinfo.csv and display the total count of male and fema
 Total Male count : 450
 Total female count: 45
 
+---------------------------------------------------------------------------
+write a program to read adult.csv and display all the disinct workclasses and its count
+
+State-gov  :  xxxx times
+Private    :   xx times
+..
+..
+---------------------------------------------------------------------------
+#write a program to read adult.csv and replace United-States with US and write all the lines to backup.csv
+---------------------------------------------------------------------------
+
+###############
+## download jsonfiles.zip from the github and copy the zip file to your local folder
+############## 
+
+
+write a program to read large-file.json and display all the urls as below:
+
+https://api.github.com/users/petroav
+https://api.github.com/users/rspt
+https://api.github.com/users/SametSisartenep
+..
+..
+..
+---------------------------------------------------------------------------
+write a program to read 200records.json file and display the id,title,description,location as below
+
+id: 2140
+title: gj
+description: ghj
+location : Hermannplatz 5-6, 10967 Berlin, Germany
+-------
+id:2139
+title:dfg
+description:df
+location:443 N Rodeo Dr, Beverly Hills, CA 90210, USA
+--------
+..
+..
+
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
