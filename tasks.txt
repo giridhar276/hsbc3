@@ -1,0 +1,583 @@
+write a program for performing the below operaitons
+
+1. define empty tuple
+2. append  "unix" to the tuple
+3. append few more elements like 'spark', 'scala','hadoop',sccm' to the list
+4  append few more elements like 'c','cpp','java','salesforce','sap','unix' to the list
+5.  remove java
+6  remove salesforce -
+7. add  'oracle' at the index 0
+8. add ' mongodb' at the index 5
+9. reverse all the elements
+10. display the total.  no. of eleents of the list
+11. display the total count of 'unix' in the list
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+define two lists
+alist = [10,20,30,40,50,10]
+blist = [40,50,60,70,80]
+
+display all the UNIQUE elements of both alist and blist  ( union )
+display all the COMMON elements of both alist and blist  
+
+-------------------------------------------------------------------------------------------------
+define  a dictionary as below and write a program to display ONLY questions
+
+questionbank ={
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "Which one is correct team name in NBA?",
+                "options": [
+                    "New York Bulls",
+                    "Los Angeles Kings",
+                    "Golden State Warriros",
+                    "Huston Rocket"
+                ],
+                "answer": "Huston Rocket"
+            }
+        },
+        "maths": {
+            "q1": {
+                "question": "5 + 7 = ?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "answer": "12"
+            },
+            "q2": {
+                "question": "12 - 8 = ?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "4"
+            }
+        }
+    }
+}
+
+
+Output:
+Which one is correct team name in NBA?
+question": "5 + 7 = ?
+
+------------------------------------------------------------------------------------------------------
+define dictionary as below
+
+book = {"chap1":[10,'UK','Mark'] ,"chap2":[20,'US','Pet']}
+
+write a program to add '200pages' to the list of chap1  and
+                       '400pages' to the list of chap2
+
+Output:
+{"chap1":[10,'UK','Mark','200pages'] ,"chap2":[20,'US','Pet','400pages']}
+
+-------------------------------------------------------------------------------------------------
+write a program to display the below output from the below dictionary
+
+data = {"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
+
+Output
+--------
+New
+Open
+Close
+
+
+
+--------------------------------------------------------------------------------------------------------
+capture any string from the keyboard and perform the below operations
+
+1. check whether the string is upper or not
+2. convert the string to list
+3. display the string exactly in the center of 30 spaces width
+4. convert the string into lower case
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+write a program to validate the IP address
+
+Enter any IP address : 192.168.0.1
+Its valid IP
+Enter any IP address : 1001.1.2.3
+Invalid IP
+
+
+-------------------------------------------------------------------
+
+write a program to capture any string from the keyboard and perform the below
+
+if the string is defined in uppercase......   convert the string to lower and display it
+
+if the string is defined in lowercase ...... convert the string to upper and display it.
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+write a program to capture username and password from the keyboard and validate the password
+
+condition1:  length of the password should be greater than  5
+condition2:   length of the password should be less than 12
+condition3:  atleast  one symbol ( @ or * or  $ ) should exist in the password
+condition4:  whole password SHOULD not be in upper case
+
+If all the conditions are valid.. then display "valid password" else invalid password
+
+--------------------------------------------------------------------------------------------------------
+
+define some tuple as below
+
+alist = ("unix","hadoop","oracle","scala")
+
+and write a program to append "spark" to the tuple
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+define list as below
+
+lang  = ["spark","spark","spark","java","unix","unix","python","python"]
+
+write a program to display each Unique iteam and the no.of times it is repeated
+
+Spark : 3 times
+java    :  1 time
+unix   :  2 times
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+define some list as below
+
+alist = ["google","oracle","microsoft"]
+
+write a program to
+add "http://www"  at the beginning and  
+add ".com" at tht end of the string
+
+Output:
+http://www.google.com
+http://www/.oracle.com
+http://www.microsoft.com
+
+--------------------------------------------------------------------------------------------------------
+
+define some list as below
+
+domains = ["google","www.unix","oracle.com"]
+
+write a program
+
+to add "www"  at the beginning  if the string is not starting with "www"
+  and
+".com" at the end of each string if the string is not ending with ".com"
+
+Output:
+www.google.com
+www.unix.com
+www.oracle.com
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to display the below IP addresses
+
+192.168.0.1
+192.168.0.2
+192.168.0.3
+..
+..
+192.168.0.10
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to display the below IP addresses
+
+192.168.0.1
+192.168.0.2
+192.168.0.3
+..
+..
+192.168.0.10
+192.168.1.1
+192.168.1.2
+192.168.1.3
+..
+..
+192.168.1.10
+
+
+
+--------------------------------------------------------------------------------------------------------
+define dictionary as below
+
+infodoc =  { 2001: {"ap":70}  , 2002:{"tn":75} , 2003:{"up":90} }
+
+write a program to display the below output
+
+state literacy rate
+------  ---------------
+ap        70
+tn        75
+up        50
+
+infodoc =  { 2001: {"ap":70}  , 2002:{"tn":75} , 2003:{"up":90} }
+
+
+--------------------------------------------------------------------------------------------------------
+
+define some dictionary as below
+
+adict = {"emp1":["raj",28] ,"emp2":["ram",34] ,"emp3":["rita",24]}
+
+write a program to check whether the key "emp2" is existing in the list or not
+
+---------------------------------------------------------------------------------------------
+
+define some list as below
+
+data = ["perl","unix","perl","scala","perl"]
+
+write a program to count the no. of occurences of each item
+
+perl 3
+unix 1
+scala 1
+
+---------------------------------------------------------------------------------------------
+alist= [
+  {
+    "login": "mojombo",
+    "id": 1,
+    "node_id": "MDQ6VXNlcjE=",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mojombo",
+    "html_url": "https://github.com/mojombo",
+    "followers_url": "https://api.github.com/users/mojombo/followers",
+    "following_url": "https://api.github.com/users/mojombo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mojombo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mojombo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mojombo/subscriptions",
+    "organizations_url": "https://api.github.com/users/mojombo/orgs",
+    "repos_url": "https://api.github.com/users/mojombo/repos",
+    "events_url": "https://api.github.com/users/mojombo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mojombo/received_events",
+    "type": "User",
+    "site_admin": False
+  },
+  {
+    "login": "defunkt",
+    "id": 2,
+    "node_id": "MDQ6VXNlcjI=",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/defunkt",
+    "html_url": "https://github.com/defunkt",
+    "followers_url": "https://api.github.com/users/defunkt/followers",
+    "following_url": "https://api.github.com/users/defunkt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/defunkt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/defunkt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/defunkt/subscriptions",
+    "organizations_url": "https://api.github.com/users/defunkt/orgs",
+    "repos_url": "https://api.github.com/users/defunkt/repos",
+    "events_url": "https://api.github.com/users/defunkt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/defunkt/received_events",
+    "type": "User",
+    "site_admin": False
+  }
+]
+
+ write a program to display the below toutput
+
+LOGIN      :name
+site admin :admin
+
+
+LOGIN      :
+site admin :
+
+
+
+---------------------------------------------------------------------------------------------------
+define a list below
+
+colors = [
+{
+"colors": "red",
+"values": "#f00"
+},
+{
+"colors": "green",
+"values": "#0f0"
+},
+{
+"colors": "blue",
+"values": "#00f"
+},
+{
+"colors": "cyan",
+"values": "#0ff"
+},
+{
+"colors": "magenta",
+"values": "#f0f"
+},
+{
+"colors": "yellow",
+"values": "#ff0"
+},
+{
+"colors": "black",
+"values": "#000"
+}
+]
+write a program to display all the colors and its values.
+
+red(#f00)
+green(#0f0)
+blue(#00f)
+cyan(#0ff)
+magenta(#f0f)
+yellow(#ff0)
+black(#000)
+
+
+
+
+--------------------------------------------------------------------------------------------
+define a dictionray as below
+
+{
+"id": "0001",
+"type": "donut",
+"name": "Cake",
+"image":
+{
+"url": "images/0001.jpg",
+"width": 200,
+"height": 200
+},
+"thumbnail":
+{
+"url": "images/thumbnails/0001.jpg",
+"width": 32,
+"height": 32
+}
+}
+
+write a program to display the below output:
+
+id              : 0001
+type            :donut
+name            : Cake
+image.width     : 200
+image.height    : 200
+image.url       : images/0001.jpg
+thumbnail.width : 32
+thumbnail.height: 32
+thumbnail.url   : images/0001.jpg
+
+
+       
+
+------------------------------------------------------------------------------------------
+define dictionary as below
+
+
+ydict = {
+  "kind": "youtube#searchListResponse",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/PaiEDiVxOyCWelLPuuwa9LKz3Gk\"",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "KE",
+  "pageInfo": {
+    "totalResults": 4249,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/QpOIr3QKlV5EUlzfFcVvDiJT0hw\"",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCJowOS1R0FnhipXVqEnYU1A"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/AWutzVOt_5p1iLVifyBdfoSTf9E\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Eqa2nAAhHN0"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/2dIR9BTfr7QphpBuY3hPU-h5u-4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IirngItQuVs"
+      }
+    }
+  ]
+}
+
+
+       
+
+--------------------------------------------------------------------------------------------------------
+
+create a dictionary as below
+
+{
+"id": "0001",
+"type": "donut",
+"name": "Cake",
+"ppu": 0.55,
+"batters":
+{
+"batter":
+[
+{ "id": "1001", "type": "Regular" },
+{ "id": "1002", "type": "Chocolate" },
+{ "id": "1003", "type": "Blueberry" },
+{ "id": "1004", "type": "Devil's Food" }
+]
+},
+"topping":
+[
+{ "id": "5001", "type": "None" },
+{ "id": "5002", "type": "Glazed" },
+{ "id": "5005", "type": "Sugar" },
+{ "id": "5007", "type": "Powdered Sugar" },
+{ "id": "5006", "type": "Chocolate with Sprinkles" },
+{ "id": "5003", "type": "Chocolate" },
+{ "id": "5004", "type": "Maple" }
+]
+}
+
+write a program to display the below output:
+
+Regular (1001)
+Chocolate (1002)
+Blueberry (1003)
+Devil's Food (1004)
+
+---------------------------------------------------------------------------------------------------------
+
+
+items =[
+{
+"id": "0001",
+"type": "donut",
+"name": "Cake",
+"ppu": 0.55,
+"batters":
+{
+"batter":
+[
+{ "id": 1001", "type": "Regular" },
+{ "id": "1002", "type": "Chocolate" },
+{ "id": "1003", "type": "Blueberry" },
+{ "id": "1004", "type": "Devil's Food" }
+]
+},
+"topping":
+[
+{ "id": "5001", "type": "None" },
+{ "id": "5002", "type": "Glazed" },
+{ "id": "5005", "type": "Sugar" },
+{ "id": "5007", "type": "Powdered Sugar" },
+{ "id": "5006", "type": "Chocolate with Sprinkles" },
+{ "id": "5003", "type": "Chocolate" },
+{ "id": "5004", "type": "Maple" }
+]
+},
+{
+"id": "0002",
+"type": "donut",
+"name": "Raised",
+"ppu": 0.55,
+"batters":
+{
+"batter":
+[
+{ "id": "1001", "type": "Regular" }
+]
+},
+"topping":
+[
+{ "id": "5001", "type": "None" },
+{ "id": "5002", "type": "Glazed" },
+{ "id": "5005", "type": "Sugar" },
+{ "id": "5003", "type": "Chocolate" },
+{ "id": "5004", "type": "Maple" }
+]
+},
+{
+"id": "0003",
+"type": "donut",
+"name": "Old Fashioned",
+"ppu": 0.55,
+"batters":
+{
+"batter":
+[
+{ "id": "1001", "type": "Regular" },
+{ "id": "1002", "type": "Chocolate" }
+]
+},
+"topping":
+[
+{ "id": "5001", "type": "None" },
+{ "id": "5002", "type": "Glazed" },
+{ "id": "5003", "type": "Chocolate" },
+{ "id": "5004", "type": "Maple" }
+]
+}
+]
+
+
+write a program to display the below output:
+
+
+Batters:
+
+Regular (1001)
+Chocolate (1002)
+Blueberry (1003)
+Devil's Food (1004)
+Regular (1001)
+Regular (1001)
+Chocolate (1002)
+
