@@ -609,6 +609,8 @@ Private    :   xx times
 ############## 
 
 
+write a program to read emp.json and display all the files and values line by line
+----------------------------------------------------------------
 write a program to read large-file.json and display all the urls as below:
 
 https://api.github.com/users/petroav
