@@ -719,3 +719,78 @@ write a program to copy all the files fro source folder to destination folder
 
 
 
+
+##############sqlite examples #################
+
+
+import sqlite3
+
+def create_table():
+    with sqlite3.connect('contacts.db') as conn:
+        cursor = conn.cursor()
+        cursor.execute('''CREATE TABLE IF NOT EXISTS contacts (
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            name TEXT NOT NULL,
+                            phone TEXT NOT NULL,
+                            email TEXT NOT NULL
+                         )''')
+        conn.commit()
+
+def add_contact(name, phone, email):
+    with sqlite3.connect('contacts.db') as conn:
+        cursor = conn.cursor()
+        cursor.execute('''INSERT INTO contacts (name, phone, email) 
+                          VALUES (?, ?, ?)''', (name, phone, email))
+        conn.commit()
+
+def get_all_contacts():
+    with sqlite3.connect('contacts.db') as conn:
+        cursor = conn.cursor()
+        cursor.execute('SELECT * FROM contacts')
+        rows = cursor.fetchall()
+        for row in rows:
+            print(row)
+
+def find_contact_by_name(name):
+    with sqlite3.connect('contacts.db') as conn:
+        cursor = conn.cursor()
+        cursor.execute('SELECT * FROM contacts WHERE name = ?', (name,))
+        rows = cursor.fetchall()
+        for row in rows:
+            print(row)
+
+def update_contact(name, new_phone, new_email):
+    with sqlite3.connect('contacts.db') as conn:
+        cursor = conn.cursor()
+        cursor.execute('''UPDATE contacts 
+                          SET phone = ?, email = ? 
+                          WHERE name = ?''', (new_phone, new_email, name))
+        conn.commit()
+
+def delete_contact(name):
+    with sqlite3.connect('contacts.db') as conn:
+        cursor = conn.cursor()
+        cursor.execute('DELETE FROM contacts WHERE name = ?', (name,))
+        conn.commit()
+
+# Example usage
+if __name__ == "__main__":
+    create_table()
+    add_contact('Alice Smith', '123-456-7890', 'alice@example.com')
+    add_contact('Bob Johnson', '098-765-4321', 'bob@example.com')
+
+    print("All Contacts:")
+    get_all_contacts()
+
+    print("\nFind Contact by Name:")
+    find_contact_by_name('Alice Smith')
+
+    print("\nUpdate Contact:")
+    update_contact('Alice Smith', '555-123-4567', 'alice.new@example.com')
+    get_all_contacts()
+
+    print("\nDelete Contact:")
+    delete_contact('Bob Johnson')
+    get_all_contacts()
+
+
