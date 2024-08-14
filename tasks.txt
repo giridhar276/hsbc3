@@ -587,3 +587,9 @@ file handling
 ---------------
 
 write a program to read empinfo.csv and display all the distinct workclasses from the file line by line
+---------------------------------------------------------------------------
+write a program to read empinfo.csv and display the total count of male and female.
+
+Total Male count : 450
+Total female count: 45
+
