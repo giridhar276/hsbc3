@@ -641,6 +641,17 @@ location:443 N Rodeo Dr, Beverly Hills, CA 90210, USA
 ---------------------------------------------------------------------------
 
 
+write a program to dsiplay all the files and folders from the current directory and display whether it is file or directory.
+
+Sample output:
+users.txt -- file
+dir1 is the direcotory
+file.csv is a file
+..
+..
+..
+
+
 
 ------------------------------------------------------------------------------
 write a program to display the below information
