@@ -639,3 +639,72 @@ location:443 N Rodeo Dr, Beverly Hills, CA 90210, USA
 
 
 ---------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+write a program to display the below information
+
+1) current working directory
+2) login name
+3) current process id
+4) current python version
+5) all the libraries available in python
+6) all the environment variables
+7) operating system name
+8) platform name
+9)current date and time
+10)statistics of realestate.csv file
+11)create empty file with today's timestamp	
+
+----------------------------------------------------------------------------
+
+
+write a program to display all the files and directories separately as below
+
+Files
+-----
+file1
+file2
+file3
+
+
+directories
+------------
+dir1
+dir2	
+
+
+------------------------------------------------
+
+
+write a program to capture username from the keyboard and generate the random password    ( use random library )
+
+condition:
+password should contain 2 random uppercase characters
+password should contain 2 random lowercase characters
+password should contain 2 digits
+password should contain 2 symbols
+
+Eg:  WelC1@3!  -- Valid
+     Welcome   -- Invalid
+
+---------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+write a progarm to delete .py files from the current directory
+
+-------------------------------------------------------------------------------------
+write a program to display all the files and its size
+file1.py   100 bytes
+file2.py    34 bytes
+-------------------------------------------------------------------------------------
+create two folders as below in the local directory
+source       :  ( copy few files to the source folder)
+destination  :  --- will be empty --
+
+write a program to copy all the files fro source folder to destination folder
+
+
+
+
